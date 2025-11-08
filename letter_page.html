@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日快乐信件</title>
+    <link rel="stylesheet" href="letter_style.css"> 
+</head>
+<body>
+
+    <div id="autoplay-guard">
+        <button id="start-button">点击打开信件</button>
+    </div>
+
+    <audio id="background-music" loop preload="auto">
+        <source src="sound_assets/background_music.mp3" type="audio/mp3"> 
+        <source src="sound_assets/background_music.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="photo-stream">
+    </div>
+    
+    <div id="letter-container">
+        <div id="letter-content">
+            <div id="letter-paper">
+                
+                <h1 class="letter-title">献给陈倩渝小公主！</h1>
+                
+                <p class="paragraph-spacing">
+                    Hey!我的好宝宝！，
+                </p>
+                <p>
+                    当你读到这封信时，你应该已经满18岁了吧！首先要先祝福你生日快乐嘻嘻！
+                </p>
+                <p>
+                    18岁是人生中几乎每个人都会经历的重要转折点，葱葱也不例外，鱼鱼酱不要觉得老了，这是给鱼鱼解锁了世界的新篇章。这不仅是书写人生新篇章的关键时刻，也是我们告别《未成年保护法》、正式步入成年世界的时刻。
+                </p>
+                
+                <p>
+                    但我与众不同，我要建立**《鱼鱼保护法》**，让鱼鱼在这片小小的世界里，无忧无虑、自在地游着！以下是保护法的重点：
+                </p>
+                
+                <ul>
+                    <li>
+                        **第一条**： 鱼鱼为独立且珍贵的个体，享有被偏爱、被温柔以待的天赋权利，此权利不可剥夺。
+                    </li>
+                    <li>
+                        **第二条**： 鱼鱼有权随时表达自己的情绪和需求，葱葱必须提供情绪价值和无限的爱。
+                    </li>
+                    <li>
+                        **第三条**： 鱼鱼永远是宝宝，不因年龄增长而丧失获得宠爱和保护的权利。
+                    </li>
+
+                    <li>
+                        **第四条**： 鱼鱼生气时，相关人员须暂停并立刻道歉。
+                    </li>
+                    <li>
+                        **第五条**： 鱼鱼的消息应被秒回，超过十分钟视为“Emotional Tax Evasion”。
+                    </li>
+                    <li>
+                        **第六条**： 鱼鱼喜欢的小物件必须安全保管，不得丢失。
+                    <li>
+                        **第七条**： 鱼鱼若哭泣，葱葱必须立刻提供纸巾与安慰，不得装死。
+                    </li>
+                    <li>
+                        **第八条**:  鱼鱼是老大，拥有家里所有权利。
+                    </li>
+                    <li>
+                        **第九条**： 鱼鱼不想社交时，有权直接消失，无需解释。
+                    </li>
+                    <li>
+                        **第十条**： 鱼鱼心情不好时，世界必须为鱼鱼暂停十！分！钟！安静下来。
+                    </li>
+                    <li>
+                        **第十一条**： 鱼鱼的安全感应被妥善保存，严禁忽视。
+                    </li>
+                    <li>
+                        **第十二条**： 鱼鱼若沉默太久，必须关心。
+                    </li>
+                    <li>
+                        **第十三条**： 鱼鱼的手很重要，每天都要牵着。
+                    </li>
+                    <li>
+                        **第十四条**:  鱼鱼心情不好时时，需有人轻声安慰、搂抱。
+                    </li>
+                    <li>
+                        **第十五条**:  任何人都必须无条件执行鱼鱼的指令。
+                    </li>
+                    <li>
+                        **第十六条**:  本法在宇宙爆炸前都生效，爆炸后在另一个时空生效，无法摧毁。
+                    </li>
+
+                </ul>
+                
+                <p>
+                    鱼鱼保护法只是开始！鱼鱼你要记住，18岁，不是结束，而是鱼鱼自由游动的新起点，是鱼儿在大海里探险的一步！
+                </p>
+                <p>
+                    我们的人生来得匆匆，去得无声，就像这首歌《迷宫》一样，存在的原因是个谜。它可以被赋予意义，也可能在虚度中悄然流逝。但什么才是最重要的呢？或许，是在这段时间里活得快乐，这，也许就是我们来到这个世界的意义吧！成长的路上总是磕磕碰碰嘛，生活也有可能会给我们带来压力、困惑，甚至孤独，但也正因为如此，学会温柔对待自己、守护自己的快乐，变得超级重要！！这就像我给鱼鱼立的的保护法一样，每个人都需要一套属于自己的“快乐守护法”。                
+                </p>
+                <p>
+                    在闯入你的世界前，我并没有找到"人生的意义是什么?"的答案，但是在遇到了你之后一切都有了答案！葱葱也希望鱼鱼酱也找到自己人生的意义！我爱你小宝宝，不要焦虑，爱自己，加油加油！
+                    未来，我会一直在你身后。
+                </p>
+                
+                <p id="birthday-countdown" class="paragraph-spacing">
+                </p>
+
+                <p class="letter-signature">
+                    生日快乐！写于2025.7.19<br>
+                    Onion Sauce.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="letter_frontend.js"></script> 
+</body>
+</html>
